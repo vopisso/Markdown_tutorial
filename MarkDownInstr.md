@@ -10,7 +10,7 @@
 
 <br><br>
 
-## Зачеркивание
+## **Зачеркивание**
 
 В Markdown добавлено зачеркивание текста: две тильды `~` до и после текста.
 
@@ -140,3 +140,28 @@ class Simple{
 `[короткая запись]: http://example.com/short`
 
 Вынос длинных URL из предложения способствует сохранению читабельности исходника. Сноски можно располагать в любом месте документа.
+
+<br><br>
+
+## **Картинки**
+
+Картинка без `alt` текста
+
+`![](//placehold.it/150x100)`. Пример:
+![](/bear.jpg)
+
+Картинка с альтом и тайтлом:
+
+`![Alt text](//placehold.it/150x100 "Можно задать title")`
+
+![Sport](https://images11.cosmopolitan.ru/upload/img_cache/c87/c873dd02b41919d4983a15ec6351ae93_ce_735x490x5x0_cropped_666x444.jpg "Sport is good!!!")
+
+Картинки-ссылки:
+
+`[![Alt text](//placehold.it/150x100)](http://example.com/)` Пример:
+
+[![](https://commons.bmstu.wiki/images/1/1c/Java12.jpeg)](http://gb.ru/)
+
+<br><br>
+
+
